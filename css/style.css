@@ -1,6 +1,21 @@
 /*------- COMMON -------*/
+.container {
+    background-color: black;
+}
+.col-12 {
+    border: 1px solid yellow;
+}
 
 /*---------------- HEADER ----------------*/
+/*------- top header -------*/
+.sony-logo {
+    width: 50px;
+    border: 1px solid red;
+}
+/*------- bottom header -------*/
+
+
+
 
 /*---------------- MAIN ----------------*/
 
