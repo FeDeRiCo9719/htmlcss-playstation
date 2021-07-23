@@ -77,6 +77,20 @@ main section {
     margin: 30px 0px;
 }
 
+/* ------- hero-option ------- */
+.img-option {
+}
+.img-option img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 2px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+.img-option img:hover {
+    border: 2px solid red;
+    padding: 2px;
+}
+
 
 /*---------------- FOOTER ----------------*/
 
@@ -87,7 +101,7 @@ main section {
 @media screen and (min-width: 768px) {
     /*---------------- MAIN ----------------*/
     main section {
-        padding: 100px 200px;
+        padding: 80px 200px;
     }
 
     /*------- hero-1 section -------*/
