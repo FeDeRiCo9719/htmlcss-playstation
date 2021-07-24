@@ -80,7 +80,7 @@ main section {
 
 /* ------- hero-option ------- */
 .img-option {
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .img-option img {
     width: 100%;
@@ -90,6 +90,7 @@ main section {
 }
 .img-option img:hover {
     border: 4px solid rgb(67, 133, 231);
+    cursor: pointer;
     transition: 0.1s;
     padding: 2px;
 }
@@ -103,13 +104,35 @@ main section {
 }
 
 .component-ps5 img {
+    border-radius: 20px;
     width: 100%;
+    border: 4px solid rgba(67, 133, 231, 0);
+}
+.component-ps5 img:hover {
+    border: 4px solid rgb(67, 133, 231);
+    transition: 0.1s;
+    cursor: pointer;
 }
 
-/* ------- hero-2 section ------- */
+/*------- hero-2 section -------*/
 .hero_2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+/*------- nuove-uscite section -------*/
+.new_games {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+.new_game img {
+    width: 100%;
+    border-radius: 20px;
+}
+.new_games p {
+    margin: 20px 0px;
+}
+
+
 
 
 /*---------------- FOOTER ----------------*/
@@ -121,7 +144,10 @@ main section {
 @media screen and (min-width: 1200px) {
     /*---------------- MAIN ----------------*/
     main section {
-        padding: 80px 200px;
+        padding: 80px 150px;
+    }
+    .pdg-box_options {
+        padding: 40px 150px;
     }
 
     /*------- hero-1 section -------*/
