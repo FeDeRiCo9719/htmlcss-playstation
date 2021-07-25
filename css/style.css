@@ -2,6 +2,29 @@
 body {
     font-family: Arial;
 }
+.btn {
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 20px
+}
+.btn_orange {
+    background-color: #ff5724;
+    border-color: #ff5724;
+}
+.btn_orange:hover {
+    color: rgb(255, 255, 255);
+    background-color: #ff7349;
+    border-color: #ff7349;
+}
+.btn_blue {
+    background-color: rgb(0, 105, 243);
+    border-color: rgb(0, 105, 243);
+}
+.btn_blue:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 142, 255);
+    border-color: rgb(56, 142, 255);
+}
 
 /*---------------- HEADER ----------------*/
 header {
@@ -95,7 +118,7 @@ main section {
     transition: 0.1s;
 }
 
-
+/*------- playstation-5 section -------*/
 .playstation_5 {
     align-items: center;
 }
@@ -103,13 +126,18 @@ main section {
     width: 100%;
 }
 
+/*------- components playstation-5 -------*/
 .component-ps5 img {
-    border-radius: 20px;
     width: 100%;
-    border: 4px solid rgba(67, 133, 231, 0);
 }
-.component-ps5 img:hover {
-    border: 4px solid rgb(67, 133, 231);
+.component-ps5 {
+    /* border-radius: 20px; */
+    padding: 10px;
+    width: 100%;
+    border-bottom: 4px solid rgba(67, 133, 231, 0);
+}
+.component-ps5:hover {
+    border-color: rgb(67, 133, 231);
     transition: 0.1s;
     cursor: pointer;
 }
