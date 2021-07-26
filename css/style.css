@@ -69,7 +69,8 @@ header {
 main {
     padding-top: 100px;
 }
-main section {
+main section,
+footer {
     padding: 40px 20px;
     /* border: 1px solid red; */
 }
@@ -160,18 +161,71 @@ main section {
     margin: 20px 0px;
 }
 
+/*------- playstation-4 section -------*/
+.ps4_img img {
+    width: 100%;
+}
 
+/*------- pass section -------*/
+.pass_section {
+    background-color: rgb(187, 182, 178);
+    /* padding: 0px 150px; */
+}
+.blue_bckg {
+    background-color: rgb(22, 20, 49);
+    color: white;
+}
+.pass_section .row {
+    align-items: center;
+}  
+.PS_plus img, 
+.PS_now img {
+    width: 50%;
+}
+.ps_now_img img, 
+.plus_img img {
+    width: 100%;
+}
 
+/*------- sconti section -------*/
+.sconti_img img {
+    width: 100%;
+}
+
+/*------- social section -------*/
+.social_box img {
+    width: 100%;
+}
 
 /*---------------- FOOTER ----------------*/
+footer {
+    background-color: rgb(2, 74, 168);
+    color: white;
+}
+.nav_footer ul {
+    padding: 0px;
+}
+.nav_footer li {
+    list-style: none;
+}
+.nav_footer a {
+    text-decoration: none;
+    color: white;
+}
+.nav_footer a:hover {
+    color: lightgrey;
+}
 
-
+.sie_logo img {
+    width: 150px;
+}
 
 
 /*---------------- RESPONSIVE ----------------*/
 @media screen and (min-width: 1200px) {
     /*---------------- MAIN ----------------*/
-    main section {
+    main section,
+    footer {
         padding: 80px 150px;
     }
     .pdg-box_options {
@@ -188,5 +242,10 @@ main section {
     .hero p {
         font-size: 22px;
         margin: 35px 0px;
-    } 
+    }
+
+    /*------- pass section -------*/
+    .pass_section {
+        padding: 0px 150px;
+    }
    }
